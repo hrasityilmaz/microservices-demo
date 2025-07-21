@@ -1,0 +1,13 @@
+2025-07-21 21:31:07 [main] INFO  a.t.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication using Java 21.0.7 with PID 3128 (D:\microservices-demo\twitter-to-kafka-service\target\classes started by Hrasi in D:\microservices-demo)
+2025-07-21 21:31:07 [main] INFO  a.t.m.d.t.t.k.s.TwitterToKafkaServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2025-07-21 21:31:07 [main] INFO  a.t.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Started TwitterToKafkaServiceApplication in 1.158 seconds (process running for 1.781)
+2025-07-21 21:31:07 [main] INFO  a.t.m.d.t.t.k.s.TwitterToKafkaServiceApplication - app starting...
+2025-07-21 21:31:07 [main] INFO  a.t.m.d.t.t.k.s.TwitterToKafkaServiceApplication - [Java, Microservices, Spring, kafka, ElasticSearch]
+2025-07-21 21:31:07 [main] INFO  a.t.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Test Hello :)
+2025-07-21 21:31:07 [main] INFO  a.t.m.d.t.t.k.s.r.i.MockKafkaStreamRunner - Starting mock filtering twitter streams for keywords [Java, Microservices, Spring, kafka, ElasticSearch]
+2025-07-21 21:31:07 [pool-2-thread-1] INFO  a.t.m.d.t.t.k.s.l.TwitterKafkaStatusListener - twitter status -> posuere libero sit ipsum Lorem elit Lorem sit Microservices Lorem ultricies Maecenas malesuada posuere purus
+2025-07-21 21:31:17 [pool-2-thread-1] INFO  a.t.m.d.t.t.k.s.l.TwitterKafkaStatusListener - twitter status -> elit malesuada porttitor congue lectus ElasticSearch massa adipiscing purus
+2025-07-21 21:31:27 [pool-2-thread-1] INFO  a.t.m.d.t.t.k.s.l.TwitterKafkaStatusListener - twitter status -> malesuada amet ultricies Microservices dolor Lorem
+2025-07-21 21:31:37 [pool-2-thread-1] INFO  a.t.m.d.t.t.k.s.l.TwitterKafkaStatusListener - twitter status -> elit sed posuere massa dolor consectetuer ElasticSearch malesuada purus magna sed dolor
+2025-07-21 21:31:47 [pool-2-thread-1] INFO  a.t.m.d.t.t.k.s.l.TwitterKafkaStatusListener - twitter status -> malesuada dolor posuere ultricies sit Fusce sit ElasticSearch pulvinar Lorem ultricies amet lectus
+2025-07-21 21:31:57 [pool-2-thread-1] INFO  a.t.m.d.t.t.k.s.l.TwitterKafkaStatusListener - twitter status -> ipsum malesuada Fusce libero Java lectus dolor Maecenas
