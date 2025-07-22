@@ -17,6 +17,11 @@
     <modules>
         <module>twitter-to-kafka-service</module>
         <module>app-config-data</module>
+        <module>kafka</module>
+        <module>kafka-model</module>
+        <module>kafka-admin</module>
+        <module>kafka-cluster</module>
+        <module>common-config</module>
     </modules>
     <url/>
     <licenses>
@@ -38,6 +43,9 @@
         <projectlombok.version>1.18.38</projectlombok.version>
         <httpclient.version>4.5.14</httpclient.version>
         <json.version>20250517</json.version>
+        <avro.version>1.12.0</avro.version>
+        <spring-kafka.version>4.0.0-M2</spring-kafka.version>
+        <spring-retry.version>2.0.12</spring-retry.version>
     </properties>
 
     <dependencyManagement>
@@ -45,6 +53,11 @@
             <dependency>
                 <groupId>art.timestop.microservices.demo</groupId>
                 <artifactId>app-config-data</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>art.timestop.microservices.demo</groupId>
+                <artifactId>common-config</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
@@ -78,6 +91,21 @@
                 <artifactId>json</artifactId>
                 <version>${json.version}</version>
             </dependency>
+            <dependency>
+                <groupId>org.apache.avro</groupId>
+                <artifactId>avro</artifactId>
+                <version>${avro.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.springframework.kafka</groupId>
+                <artifactId>spring-kafka</artifactId>
+                <version>${spring-kafka.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.springframework.retry</groupId>
+                <artifactId>spring-retry</artifactId>
+                <version>${spring-retry.version}</version>
+            </dependency>
         </dependencies>
     </dependencyManagement>
 
@@ -104,9 +132,4 @@
         </pluginManagement>
         
     </build>
-
-
-
-    <dependencies>
-    </dependencies>
 </project>
