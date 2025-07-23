@@ -18,9 +18,9 @@
         <module>twitter-to-kafka-service</module>
         <module>app-config-data</module>
         <module>kafka</module>
-        <module>kafka-model</module>
         <module>kafka-admin</module>
-        <module>kafka-cluster</module>
+        <module>kafka-model</module>
+        <module>kafka-producer</module>
         <module>common-config</module>
     </modules>
     <url/>

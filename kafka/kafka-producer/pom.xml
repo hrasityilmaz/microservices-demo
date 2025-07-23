@@ -7,13 +7,9 @@
         <groupId>art.timestop.microservices.demo</groupId>
         <artifactId>microservices-demo</artifactId>
         <version>0.0.1-SNAPSHOT</version>
+        <relativePath>../../pom.xml</relativePath>
     </parent>
-    
-    <artifactId>kafka</artifactId>
-    <packaging>pom</packaging>
-    <modules>
-        <module>kafka-admin</module>
-    </modules>
-    
+    <artifactId>kafka-producer</artifactId>
+   
 
 </project>

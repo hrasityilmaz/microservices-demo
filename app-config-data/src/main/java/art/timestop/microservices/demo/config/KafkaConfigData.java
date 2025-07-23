@@ -1,4 +1,4 @@
-package art.timestop.microservices.demo;
+package art.timestop.microservices.demo.config;
 
 import java.util.List;
 

@@ -30,3 +30,15 @@ java.lang.Error: Unresolved compilation problems:
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350)
 	at art.timestop.microservices.demo.twitter.to.kafka.service.TwitterToKafkaServiceApplication.main(TwitterToKafkaServiceApplication.java:33)
+2025-07-22 21:17:07 [main] INFO  a.t.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication using Java 21.0.7 with PID 6120 (D:\microservices-demo\twitter-to-kafka-service\target\classes started by Hrasi in D:\microservices-demo\twitter-to-kafka-service)
+2025-07-22 21:17:07 [main] INFO  a.t.m.d.t.t.k.s.TwitterToKafkaServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2025-07-22 21:17:07 [main] INFO  a.t.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Started TwitterToKafkaServiceApplication in 1.047 seconds (process running for 1.909)
+2025-07-22 21:17:07 [main] INFO  a.t.m.d.t.t.k.s.TwitterToKafkaServiceApplication - app starting...
+2025-07-22 21:17:07 [main] INFO  a.t.m.d.t.t.k.s.TwitterToKafkaServiceApplication - [Java, Microservices, Spring, kafka, ElasticSearch]
+2025-07-22 21:17:07 [main] INFO  a.t.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Test Hello :)
+2025-07-22 21:17:07 [main] INFO  a.t.m.d.t.t.k.s.r.i.MockKafkaStreamRunner - Starting mock filtering twitter streams for keywords [Java, Microservices, Spring, kafka, ElasticSearch]
+2025-07-22 21:17:07 [pool-2-thread-1] INFO  a.t.m.d.t.t.k.s.l.TwitterKafkaStatusListener - twitter status -> ultricies ipsum elit dolor ipsum Lorem malesuada ElasticSearch amet dolor congue amet consectetuer
+2025-07-22 21:17:18 [pool-2-thread-1] INFO  a.t.m.d.t.t.k.s.l.TwitterKafkaStatusListener - twitter status -> consectetuer massa Maecenas adipiscing massa elit magna ElasticSearch massa malesuada posuere pulvinar elit Fusce
+2025-07-22 21:17:28 [pool-2-thread-1] INFO  a.t.m.d.t.t.k.s.l.TwitterKafkaStatusListener - twitter status -> elit ipsum magna Maecenas ElasticSearch Lorem lectus
+2025-07-22 21:17:28 [RMI TCP Connection(6)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2025-07-22 21:17:38 [pool-2-thread-1] INFO  a.t.m.d.t.t.k.s.l.TwitterKafkaStatusListener - twitter status -> malesuada libero amet adipiscing lectus lectus Java lectus porttitor pulvinar purus
