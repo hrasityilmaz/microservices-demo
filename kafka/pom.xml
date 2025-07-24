@@ -10,10 +10,6 @@
     </parent>
     
     <artifactId>kafka</artifactId>
-    <packaging>pom</packaging>
-    <modules>
-        <module>kafka-admin</module>
-    </modules>
     
 
 </project>
